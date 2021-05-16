@@ -1,0 +1,65 @@
+.menu{z-index:2;position:absolute; top:85px;}
+.phrase{z-index:2; position:absolute;top:50px;text-align: center;color:white;}
+.telephone{z-index:2; position:absolute;top:50px;color:white;}
+.bouton-appel{z-index:2;position:absolute;top:1000px;}
+.bouton-appel p{color:white;}
+
+.fond img{background-size: cover;z-index:1;width: 100%;}
+.logo img{height: 110px;width: 110px;border:2px solid white;border-radius: 50%;}
+.logo img{background-size: cover;}
+span{color:rgb(37, 82, 167);font-weight: bold;}
+.item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{border:2px solid white;border-radius:50%;width: 110px;height: 110px;color:white;
+background: linear-gradient(-30deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );
+}
+.item-accueil p, .item-hypnose p, .item-bouton p{margin-top: 40px;text-align: center;font-weight: bold;}
+.item-presentation p{margin-top: 40px;text-align: center;font-weight: bold;}
+.item-naturopathie p{margin-top: 40px;text-align: center;font-weight: bold;}
+#presentation,#naturopathie{margin-top: 30px;margin-bottom: 20px;}#presentation h1,#naturopathie h1,#naturopathie h2,#naturopathie h3{text-align: center;color:rgb(107, 103, 103)}
+.image{text-align: center;}
+.item-appel{border:2px solid white;border-radius:50%;width: 110px;height: 110px;color:white;
+    background: linear-gradient(-40deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );}
+.item-appel p{margin-top: 30px;margin-left: 20px;font-weight: bold;}
+#presentation p{font-size: 1.2rem;}
+.principe{margin-top: 20px;margin-bottom: 50px;}
+#naturopathie p{text-align: center;color:rgb(107, 103, 103);font-size: 1.2rem;}
+#paragraphe p{text-align:left;color:rgb(107, 103, 103);font-size: 1.2rem;}
+#hypnose{margin-top: 20px;margin-bottom: 20px;}#hypnose h1{text-align: center;color:rgb(107, 103, 103);}#hypnose h2{margin-bottom: 30px;margin-top: 30px;}
+.photo{background-image: url("./images/paysage.jpg");}
+.photo{width: 100%;height: 500px;background-attachment: fixed;background-size: cover;background-position: 0 center;}
+form{background-color: white;color:rgb(46, 19, 46);border-radius: 20px;}
+legend p, fieldset p{color: rgb(46, 19, 46);}
+.information{text-align: center;}
+#bouton{border:2px solid white;border-radius:50%;width: 110px;height: 110px;color:white;background: linear-gradient(-30deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );
+font-weight: bold;}
+.bouton{text-align: center;}
+#contact{background: url("./images/dreamstime_m_90654557.jpg");}
+.align{text-align: center;}
+#createur{border:2px solid white;border-radius:50%;width: 130px;height: 130px;color:white;background: linear-gradient(-40deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );}
+#createur p{color:white;margin-top: 15px;font-weight: bold;}
+.footer{text-align: center;height: 100px;background: linear-gradient(-40deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );}
+#chute p{color:rgb(47, 40, 109);padding-top: 20px;}
+
+@media all and (min-device-width:541px) and (max-device-width:1024px ){
+    .phrase{top:280px;}.phrase h1{font-size: 1.5rem;color:white;}
+    .fond img{max-width: 1024px;}
+    .logo img{height: 100px;width: 100px;}
+    .menu{top:35px}.bouton-appel{top:580px;margin-left: 0px;}.bouton-appel p{font-size: 1rem;
+    color:white;}
+    
+}
+@media all and (min-device-width:381px) and (max-device-width:540px){
+    .menu{top:5px;left:0px;}
+    .bouton-appel{top:555px;}.item-naturopathie p{margin-left: 20px;}
+}
+@media all and (max-device-width:380px){
+    .menu{top:5px;left:0px;}
+    .fond img{max-width: 382px;}
+    .logo img{height: 50px;width: 50px;}
+    .phrase{top:120px;}.phrase h1{font-size: 0.8rem;color:white;padding-left: 120px;}
+    .item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{width: 70px;height: 70px;}
+    .item-accueil p, .item-hypnose p{margin-top: 12px;margin-left: 0px;}
+    .item-presentation p{margin-top: 0px;}.item-naturopathie p{margin-top: 12px;}
+    .bouton-appel{top:350px;text-align: center;}.bouton-appel p{font-size: 1rem;color:white;
+    margin-top: 10px;margin-left: 0px;}
+    .titre h1{padding-left: 40px;}
+}
