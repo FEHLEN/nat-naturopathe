@@ -3,14 +3,12 @@
 .telephone{z-index:2; position:absolute;top:50px;color:white;}
 .bouton-appel{z-index:2;position:absolute;top:1000px;}
 .bouton-appel p{color:white;}
-
 .fond img{background-size: cover;z-index:1;width: 100%;}
 .logo img{height: 110px;width: 110px;border:2px solid white;border-radius: 50%;}
 .logo img{background-size: cover;}
 span{color:rgb(37, 82, 167);font-weight: bold;}
 .item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{border:2px solid white;border-radius:50%;width: 110px;height: 110px;color:white;
-background: linear-gradient(-30deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );
-}
+background: linear-gradient(-30deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );}
 .item-accueil p, .item-hypnose p, .item-bouton p{margin-top: 40px;text-align: center;font-weight: bold;}
 .item-presentation p{margin-top: 40px;text-align: center;font-weight: bold;}
 .item-naturopathie p{margin-top: 40px;text-align: center;font-weight: bold;}
@@ -39,20 +37,38 @@ font-weight: bold;}
 #createur p{color:white;margin-top: 15px;font-weight: bold;}
 .footer{text-align: center;height: 100px;background: linear-gradient(-40deg, rgb(77, 104, 51) 15%,rgb(107, 138, 75) 35%, rgb(37, 82, 167) 45%, rgb(156, 176, 212) );}
 #chute p{color:rgb(47, 40, 109);padding-top: 20px;}
-
-@media all and (min-device-width:541px) and (max-device-width:1024px ){
-    .phrase{top:280px;}.phrase h1{font-size: 1.5rem;color:white;}
-    .fond img{max-width: 1024px;}
-    .logo img{height: 100px;width: 100px;}
-    .menu{top:35px}.bouton-appel{top:580px;margin-left: 0px;}.bouton-appel p{font-size: 1rem;
-    color:white;}
-    
-}
-@media all and (min-device-width:381px) and (max-device-width:540px){
+/*************responsive*******************/
+@media all and (max-device-width:281px){/**ok**/
     .menu{top:5px;left:0px;}
-    .bouton-appel{top:555px;}.item-naturopathie p{margin-left: 20px;}
+    .fond img{max-width: 382px;}
+    .logo img{height: 50px;width: 50px;}
+    .phrase{top:90px;}.phrase h1{font-size: 0.8rem;color:white;padding-left: 120px;}
+    .item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{width: 70px;height: 70px;}
+    .item-accueil p, .item-hypnose p{margin-top: 12px;margin-left: 0px;}
+    .item-presentation p{margin-top: 10px;}.item-naturopathie p{margin-top: 12px;}
+    .bouton-appel{top:350px;text-align: center;}.bouton-appel p{font-size: 1rem;color:white;
+    margin-top: 10px;margin-left: 0px;}
+    .titre h1{padding-left: 40px;font-size: 1.3em;} 
+    #createur{width: 100px;height: 100px;}
+    #createur p{margin-top: 20px;font-size: 0.9em;}
+    #chute p{padding-top: 5px;padding-bottom: 10px;}
 }
-@media all and (max-device-width:380px){
+@media all and (min-device-width:285px) and (max-width:321px){/*ok*/
+    .menu{top:5px;left:0px;}
+    .fond img{max-width: 382px;}
+    .logo img{height: 50px;width: 50px;}
+    .phrase{top:100px;}.phrase h1{font-size: 0.8rem;color:white;padding-left: 120px;}
+    .item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{width: 70px;height: 70px;}
+    .item-accueil p, .item-hypnose p{margin-top: 12px;margin-left: 0px;}
+    .item-presentation p{margin-top: 10px;}.item-naturopathie p{margin-top: 12px;}
+    .bouton-appel{top:350px;text-align: center;}.bouton-appel p{font-size: 1rem;color:white;
+    margin-top: 10px;margin-left: 0px;}
+    .titre h1{padding-left: 40px;font-size: 1.4em;} 
+    #createur{width: 100px;height: 100px;}
+    #createur p{margin-top: 20px;font-size: 0.9em;}
+    #chute p{padding-top: 5px;padding-bottom: 10px;}
+}
+@media all and (min-device-width:360px) and (max-width:375px){/*ok*/
     .menu{top:5px;left:0px;}
     .fond img{max-width: 382px;}
     .logo img{height: 50px;width: 50px;}
@@ -62,5 +78,109 @@ font-weight: bold;}
     .item-presentation p{margin-top: 10px;}.item-naturopathie p{margin-top: 12px;}
     .bouton-appel{top:350px;text-align: center;}.bouton-appel p{font-size: 1rem;color:white;
     margin-top: 10px;margin-left: 0px;}
-    .titre h1{padding-left: 40px;}
+    .titre h1{padding-left: 40px;font-size: 1.4em} 
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;} 
 }
+@media all and (min-width:376px) and (max-device-width:411px){/**ok**/
+    .menu{top:5px;left:0px;}
+    .fond img{max-width: 382px;}
+    .logo img{height: 50px;width: 50px;}
+    .phrase{top:120px;}.phrase h1{font-size: 0.8rem;color:white;padding-left: 120px;}
+    .item-accueil, .item-presentation, .item-naturopathie, .item-hypnose, .item-bouton{width: 70px;height: 70px;}
+    .item-accueil p, .item-hypnose p{margin-top: 12px;margin-left: 0px;}
+    .item-presentation p{margin-top: 10px;}.item-naturopathie p{margin-top: 12px;}
+    .bouton-appel{top:350px;text-align: center;}.bouton-appel p{font-size: 1rem;color:white;
+    margin-top: 10px;margin-left: 0px;}
+    .titre h1{padding-left: 40px;font-size: 1.4em} 
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-width:412px) and (max-device-width:415px){/*ok*/
+    .menu{top:5px;left:0px;}
+    .bouton-appel{top:555px;}.item-naturopathie p{margin-left: 20px;}
+    .phrase{top:120px;}.phrase h1{font-size: 0.8rem;color:white;padding-left: 120px;}
+    .titre h1{padding-left: 40px;font-size: 1.5em} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-width:520px) and (max-device-width:541px){/*ok*/
+    .phrase{top:200px;}.phrase h1{font-size: 1.5rem;color:white;}
+    .fond img{max-width: 1024px;}
+    .logo img{height: 100px;width: 100px;}
+    .menu{top:35px}.bouton-appel{top:580px;margin-left: 0px;}.bouton-appel p{font-size: 1rem;
+    color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-width:550px) and (max-device-width:569px){/*ok*/
+    .phrase{top:220px;}.phrase h1{font-size: 1.5rem;color:white;}
+    .fond img{max-width: 1024px;}
+    .logo img{height: 100px;width: 100px;}
+    .menu{top:35px}.bouton-appel{top:580px;margin-left: 0px;}.bouton-appel p{font-size: 1rem;
+    color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-width:600px) and (max-device-width:659px){/*ok*/
+    .phrase{top:250px;}.phrase h1{font-size: 1.5rem;color:white;}
+    .fond img{max-width: 1024px;}
+    .logo img{height: 100px;width: 100px;}
+    .menu{top:35px}.bouton-appel{top:580px;margin-left: 10px;}.bouton-appel p{font-size: 1rem;
+    color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-device-width:667px) and (max-device-width:720px){/*ok*/
+    .phrase{top:220px;}
+    .bouton-appel{top:650px;margin-left: 10px;}.bouton-appel p{font-size: 1rem;
+        color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-device-width:725px) and (max-device-width:737px){/*ok*/
+    .phrase{top:250px;}
+    .bouton-appel{top:650px;margin-left: 10px;}.bouton-appel p{font-size: 1rem;
+        color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-device-width:750px) and (max-device-width:769px){/*ok*/
+    .phrase{top:250px;}
+    .bouton-appel{top:650px;margin-left: 10px;}.bouton-appel p{font-size: 1rem;
+        color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-device-width:780px) and (max-device-width:823px){/*ok*/
+    .phrase{top:300px;}
+    .bouton-appel{top:650px;margin-left: 10px;}.bouton-appel p{font-size: 1rem;color:white;} 
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 130px;}
+}
+@media all and (min-device-width:1024px) and (max-device-width:1104px ){
+    .phrase{top:280px;}.phrase h1{font-size: 1.5rem;color:white;}
+    .fond img{max-width: 1024px;}
+    .logo img{height: 100px;width: 100px;}
+    .menu{top:35px}.bouton-appel{top:580px;margin-left: 0px;}.bouton-appel p{font-size: 1rem;
+    color:white;}
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 140px;}
+}
+@media all and (min-device-width:1110px) and (max-device-width:1367px ){
+    .phrase{top:280px;}.phrase h1{padding-left: 350px;}
+    #presentation{margin-top: 100px;}
+    #createur p{margin-top: 25px;}
+    .footer{height: 140px;}
+}
+
+
